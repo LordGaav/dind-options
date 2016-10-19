@@ -19,10 +19,10 @@ image: docker:latest
 
 variables:
     DOCKER_OPTS: "--insecure-registry=my.docker.registry"
-    DOCKER_HOST: "tcp://lordgaav__dind-opts:2375"
+    DOCKER_HOST: "tcp://lordgaav__dind-options:2375"
 
 services:
-    - lordgaav/dind-opts:latest
+    - lordgaav/dind-options:latest
 ```
 
 ## License
